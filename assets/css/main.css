@@ -64,8 +64,7 @@ button:disabled {
   font-weight: 800;
 }
 
-.nav-action,
-.back {
+.nav-action {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;

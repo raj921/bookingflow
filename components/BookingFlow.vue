@@ -149,11 +149,6 @@ async function book() {
         <span class="mark">t</span>
         <span>tickete</span>
       </NuxtLink>
-      <div class="hidden items-center gap-10 text-sm text-[#5e564c] md:flex">
-        <span>Experiences</span>
-        <span>Destinations</span>
-        <span>Collections</span>
-      </div>
       <NuxtLink class="nav-action rise" :to="`/${id === 106 ? 101 : 106}`">
         {{ id === 106 ? 'Open bookable' : 'View sold out' }}
       </NuxtLink>
@@ -178,11 +173,6 @@ async function book() {
 
     <section v-else-if="exp" class="mx-auto grid max-w-[1480px] grid-flow-dense gap-6 px-5 py-8 md:grid-cols-12 md:px-10 md:py-12">
       <div class="space-y-9 md:col-span-7">
-        <NuxtLink to="/" class="back rise">
-          <ChevronLeft :size="17" />
-          Back to experiences
-        </NuxtLink>
-
         <FloatingCard>
           <div class="media-card media-scale">
             <img :src="imgs[photo] || exp.image" :alt="exp.title" />
