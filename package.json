@@ -1,0 +1,29 @@
+{
+  "name": "tickete-booking-flow",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "check": "nuxt prepare && vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@inspira-ui/plugins": "latest",
+    "@lucide/vue": "^1.23.0",
+    "@tailwindcss/vite": "latest",
+    "@vueuse/core": "latest",
+    "gsap": "latest",
+    "motion-v": "latest",
+    "nuxt": "latest",
+    "tailwindcss": "latest",
+    "tw-animate-css": "latest",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "latest",
+    "vue-tsc": "latest"
+  }
+}
